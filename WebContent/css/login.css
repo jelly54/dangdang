@@ -1,0 +1,27 @@
+@charset "gb18030";
+/* loginÒ³Ãæ */
+body{margin:0;padding:0;font-size:12px;color:#333;}
+a{text-decoration:none;color:#00F;}
+a:hover{text-decoration:underline;}
+
+/*------- wrapper -------*/
+#wrapper{width:1000px;margin:0 auto;}
+
+/*------- header -------*/
+#header{height:80px;background:url(../images/login__01.jpg) no-repeat;}
+
+/*------- contet -------*/
+#content{position:relative;height:583px;background:url(../images/login__02.jpg) no-repeat;}
+/*µÇÂ½Çø*/
+#login{position:absolute;top:66px;left:669px;width:306px;height:281px;background:url(../images/login_bg.jpg) bottom no-repeat;}
+#login form{margin-top:52px;padding:0 40px;}
+#login .input_submit{margin-left:40px;}
+#login span{margin-left:20px;}
+#login .input_name , #login .input_password{width:170px;}
+#login .input_password{font-size:13px;}
+#login .register{position:absolute;left:80px;top:240px;border:none;}
+
+/*------- footer -------*/
+#footer{height:123px;background:url(../images/login__11.jpg) no-repeat;}
+
+

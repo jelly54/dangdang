@@ -1,0 +1,50 @@
+﻿
+/* page_01 页面 */
+body{margin:0;padding:0;font-size:12px;color:#333;}
+a{text-decoration:none;color:#3f6ea6;}
+a:hover{text-decoration:underline;}
+input{margin:0;padding:0;}
+ul{margin:0;padding:0;list-style:none;}
+
+#wrapper{width:995px;margin:0 auto;}
+
+#header{height:147px;background:url(../images/Page_01_01.jpg) no-repeat;position:relative;}
+/*登陆信息的显示*/
+#header #information{position:absolute;left:460px;height:25px;line-height:25px;}
+#header .exit{color:#333;}
+/*搜索信息的显示*/
+#header .search{ position:absolute;left:-175px;top:112px;width:368px;height:22px;border:1px solid #ccc}
+#header .searchInput{ width:287px;height:19px;border:0px;margin:0;padding:0;line-height:23px;}
+#header .searchBtn{ width:81px;height:22px;background:url(../images/searchBtn.jpg) no-repeat left -2px; border:none;cursor:pointer;}
+
+/* 图书商品分类 */
+#content{width:972px;margin:0 auto;padding:10px 0;}
+.content-left{float:left;width:197px;height:530px;background:url(../images/Page_01_left.jpg) no-repeat right top;}
+.content-left ul{margin-top:50px;margin-left:50px}
+.content-left li{height:26px;}
+.content-left li a{color:#444;}
+.content-left li span{color:#999}
+
+.content-right{float:left;width:775px;}
+.content-right .row01{position:relative;height:50px;background:url(../images/Page_01_row01.jpg) no-repeat left top;}
+.row01 .px{position:absolute;left:50px;top:0px;}
+.row01 .px img{border:none;}
+
+.row02{border-bottom:1px solid #999;margin:5px 12px;}
+.row02 h2{font-size:14px;font-weight:normal;border-bottom:1px dashed #666;margin-left:160px;margin-bottom:30px;padding-bottom:8px;}
+.row02 img{float:left;border:none;}
+.row02 .p02{text-align:right;vertical-align:middle;}
+.red{font-size:14px;font-weight:bold;color:#F00;}
+.line-through{font-size:14px;font-weight:bold;color:#333;text-decoration:line-through;}
+.buy{width:74px;height:25px;border:none;background:url(../images/Page_01_buy.jpg) no-repeat left top;cursor:pointer;vertical-align:bottom;}
+.collection{width:74px;height:25px;border:none;background:url(../images/Page_01_collection.jpg) no-repeat left top;cursor:pointer;vertical-align:bottom;}
+
+.row03{width:775px;height:588px;background:url(../images/Page_01_03.jpg) no-repeat left top;}
+
+.row04{text-align:right;margin:10px;}
+.row04 .inputPage{width:25px;height:12px;line-height:12px;border:1px solid #999;}
+
+#column_02{height:276px;background:url(../images/Page_01_05.jpg) no-repeat;}
+
+#footer{clear:both;height:131px;background:url(../images/Page_01_06.jpg) no-repeat;}
+

@@ -1,0 +1,35 @@
+﻿/* page03 页面 */
+body{margin:0;padding:0;font-size:12px;font-family:Arial, Helvetica, sans-serif;}
+a{text-decoration:none;color:#00F;}
+a:hover{text-decoration:underline;}
+
+#wrapper{width:979px;margin:0 auto;}
+
+#header{height:147px;background:url(../images/Page_03_01.jpg) no-repeat;position:relative;}
+/*登陆信息的显示*/
+#header #information{position:absolute;left:450px;height:25px;line-height:25px;}
+#header .exit{color:#333;}
+
+#content_01{height:71px;background:url(../images/Page_03_02.jpg) no-repeat;}
+
+/* 商品价格、操作等 */
+#content_02{height:237px;background:url(../images/Page_03_03.jpg) no-repeat;position:relative;}
+#content_02 select{position:absolute;left:825px;top:95px;}
+#content_02 .solve{position:absolute;left:820px;top:190px;width:150px;height:39px;background:url(../images/Page_03_solve.jpg) no-repeat;
+				   border:0px;margin:0;padding:0;cursor:hand;}
+#content_02 #money{position:absolute;left:900px;top:156px;color:#F00;font-size:18px;font-weight:bold;}
+#content_02 #goBuy img{position:absolute;left:690px;top:195px;border:none}
+
+#content_02 p img{position:absolute;left:50px;top:72px;border:1px solid #999;padding:0 3px;}
+#content_02 p span{position:absolute;left:535px;top:96px;color:#F00;}
+#content_02 p .delate{position:absolute;left:920px;top:97px;}
+
+#content_02 p .jifen{position:absolute;left:452px;top:94px;color:#666;}
+#content_02 p .youhui{position:absolute;left:719px;top:94px;color:#666;}
+
+
+
+#content_03{height:470px;background:url(../images/Page_03_04.jpg) no-repeat;}
+
+#footer{height:142px;background:url(../images/Page_03_05.jpg) no-repeat;}
+
